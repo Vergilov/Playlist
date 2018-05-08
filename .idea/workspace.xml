@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f9da9ae-b494-4d03-9069-f6b48ae4d259" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlayList/com/vergilov/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlayList/com/vergilov/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlayList/com/vergilov/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlayList/com/vergilov/Song.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vergilov/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vergilov/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vergilov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vergilov/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vergilov/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vergilov/Song.java" afterDir="false" />
       <change beforePath="$USER_HOME$/README.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,7 +17,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/vergilov/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
+            <state relative-caret-position="-64">
               <caret line="92" column="67" lean-forward="true" selection-start-line="92" selection-start-column="67" selection-end-line="92" selection-end-column="67" />
               <folding>
                 <element signature="e#116#123#0" expanded="true" />
@@ -176,12 +169,12 @@
       <workItem from="1525731006390" duration="12580000" />
       <workItem from="1525744362849" duration="499000" />
       <workItem from="1525813218583" duration="599000" />
-      <workItem from="1525814285540" duration="441000" />
+      <workItem from="1525814285540" duration="999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14119000" />
+    <option name="totallyTimeSpent" value="14677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="6" width="1908" height="1026" extended-state="0" />
@@ -196,8 +189,8 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32982457" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32982457" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32982457" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32982457" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26146287" />
@@ -371,7 +364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vergilov/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
+        <state relative-caret-position="-64">
           <caret line="92" column="67" lean-forward="true" selection-start-line="92" selection-start-column="67" selection-end-line="92" selection-end-column="67" />
           <folding>
             <element signature="e#116#123#0" expanded="true" />
