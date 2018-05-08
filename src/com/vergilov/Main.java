@@ -1,15 +1,12 @@
 package com.vergilov;
 
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.ListIterator;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
-
+private static ArrayList<Album>albums=new ArrayList<Album>();
     public static void main(String[] args) {
-        String playListName;
+
         LinkedList<Song> playlists= new LinkedList<>();;
         Album album=new Album("Metallica");
         album.addSong("Fight fire","21354");
@@ -20,6 +17,8 @@ public class Main {
         album.addToPlayList(2,playlists);
         album.addToPlayList(3,playlists);
         album.addToPlayList(4,playlists);
+        albums.add(album);
+        albums.get(0).addToPlayList(1,playlists);//Z albumu w arrayliscie
 
         play(playlists);
 
@@ -53,7 +52,7 @@ public class Main {
                         goingFoward = true;
                     }
                     if (listIterator.hasNext()) {
-                        System.out.println("Now Playing " + listIterator.next());
+                        System.out.println("Now Playing " + listIterator.next().toString());
                     } else {
                         System.out.println("Reached the end of the playlist");
                         goingFoward = false;
@@ -70,7 +69,7 @@ public class Main {
                         goingFoward = false;
                     }
                     if (listIterator.hasPrevious()) {
-                        System.out.println("now Play " + listIterator.previous());
+                        System.out.println("now Play " + listIterator.previous().toString());
                     } else {
                         System.out.println("We are at the start of the playlist");
                         goingFoward = true;
@@ -83,7 +82,7 @@ public class Main {
                     if (listIterator.hasPrevious()) {
                         listIterator.previous();
                     }
-                    System.out.println("Now Play " + listIterator.next());
+                    System.out.println("Now Play " + listIterator.next().toString());
                     break;
                 case 4:
                     printPlayList(songs);
@@ -92,6 +91,11 @@ public class Main {
                     if (!songs.isEmpty()) {
                         listIterator.remove();
                         System.out.println("Current Song Removed");
+                        if(listIterator.hasNext()){
+                            System.out.println("Now Playing: "+listIterator.next().toString());
+                        }else if(listIterator.hasPrevious()){
+                            System.out.println("Now playing: "+listIterator.previous().toString());
+                        }
                     } else {
                         System.out.println("Please go to Song that want to remove( or Playlist is empty)");
                     }
@@ -112,11 +116,7 @@ public class Main {
         ListIterator<Song> i = linkedList.listIterator();
         for(int j=0; j<linkedList.size(); j++) {
             if (!linkedList.isEmpty()) {
-                System.out.println(i.next().getTitle());
-                System.out.println("Duration " + i.previous().getDuration());
-                System.out.println("++++++++++++++++++++++++++++");
-                i.next();
-
+                System.out.println(i.next().toString());
             } else {
                 System.out.println("Is empty");
             }

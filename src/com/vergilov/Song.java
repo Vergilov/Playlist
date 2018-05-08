@@ -26,4 +26,7 @@ public class Song {
         this.title = title;
         this.duration = duration;
     }
+    public String toString(){
+        return this.getTitle()+": Duration "+this.getDuration();
+    }
 }
